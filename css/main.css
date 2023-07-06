@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Vazir;
+    src: url(../font/Vazir-Black.woff) format("woff");
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header-scrolled {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 20px rgb(1, 41, 112 /10%);
+    transition: all 1s;
+
+}
+
+.header {
+    transition: 1s;
+    padding: 20px 0;
+}
+
+@media (max-width : 992px) {
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.Intro {
+    width: 100%;
+    height: 100vh;
+    background: url("../Image/intro/intro-bg.png") top center no-repeat;
+    background-size: cover;
+}
+
+/* Utilities */
+.hover-grow {
+    transition: all 0.5s;
+}
+
+.hover-grow:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    background-color: rgba(16, 119, 244, 0.111);
+    padding: 40px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.8 !important;
+
+}
+
+/* About */
+.content {
+    background-color: #dadbdd;
+    padding: 40px;
+}
+
+/* counst */
+.counst i.blue {
+    font-size: 42px;
+    color: #4154f1;
+}
+
+.counst i.orange {
+    font-size: 42px;
+    color: #ee6c20;
+}
+
+.counst i.green {
+    font-size: 42px;
+    color: #15be56;
+}
+
+.counst i.red {
+    font-size: 42px;
+    color: #bb0852;
+}
+
+/* Features */
+.features i {
+    font-size: 44px;
+    color: #4154f1;
+}
+
+/* Services */
+.services .service-box {
+    box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.services .service-box .icon {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.services .service-box .read-more i {
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 0.4rem;
+    padding: 0px;
+}
+
+.services .service-box .read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.services .service-box.blue {
+    border-bottom: 3px solid #2db6fa;
+}
+
+
+
+
+.services .service-box.blue .icon {
+    color: #2db6fa;
+    background-color: #dbf3fe;
+}
+
+.service-box.blue .read-more {
+    color: #2db6fa;
+}
+
+.service-box.blue:hover .read-more {
+    color: #fff;
+}
+
+.services .service-box:hover {
+    background-color: #2db6fa;
+    color: #fff;
+}
+
+.services .service-box:hover .icon {
+    background-color: #fff;
+}
+
+/* service-box orange*/
+.services .service-box.orange {
+    border-bottom: 3px solid #f68c09;
+}
+
+.services .service-box.orange .icon {
+    color: #f68c09;
+    background-color: #dbf3fe;
+}
+
+.service-box.orange .read-more {
+    color: #f68c09;
+}
+
+.service-box.orange:hover .read-more {
+    color: #fff;
+}
+
+.service-box.orange:hover {
+    background-color: #f68c09;
+}
+
+/* service-box green*/
+.services .service-box.green {
+    border-bottom: 3px solid #08da4e;
+}
+
+.services .service-box.green .icon {
+    color: #08da4e;
+    background-color: #dbf3fe;
+}
+
+.service-box.green .read-more {
+    color: #08da4e;
+}
+
+.service-box.green:hover .read-more {
+    color: #fff;
+}
+
+.service-box.green:hover {
+    background-color: #08da4e;
+}
+
+/* Picing */
+.Picing .card {
+    transition: all 0.3s;
+}
+
+.Picing .card:hover {
+    transform: scale(1.1);
+}
+
+/* Contact */
+.Contact .info-box {
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.Contact .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+
+.Contact .info-box .cellphon {
+    direction: ltr;
+    text-align: right;
+}
+.Contact .contact-form{
+    background-color: #fafbff;
+    padding: 30px;
+    height: 100%;
+}
+/* footer */
+.footer .social-link i{
+    font-size: 20px;
+    color: rgba(1, 41, 112, 0.5);
+}
+.footer hr{
+    width: 70%;
+    height: 5px;
+
+}
+.footer .footer-link a{
+    color: #000;
+    font-size: 14px;
+}
+.footer .footer-link i{
+    font-size: 13px;
+    
+}
